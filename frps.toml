@@ -14,9 +14,7 @@ webServer.port = 8080
 webServer.user = "admin"
 webServer.password = "{{ .Envs.FRP_DASHBOARD_PWD }}"
 
-
-[ssh]
-bind_port = 6000
+bindPort = 6000
 
 # Data plane binding
 # For TCP tunnels, set to 0.0.0.0 (or :: in IPv6)
